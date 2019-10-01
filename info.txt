@@ -1,0 +1,13 @@
+The Backend user asp.net core 2.2 & Frontend use angular 8.3
+
+Run Backend:
+- Open the solution in visual studio 
+- DB connection string found at appsettings.json
+- On Package Manager Console type:  update-database
+- Now run the project
+
+Run Frontend:
+- Open the client folder in visual studio code
+- Web api url will found: \Client\src\app\cal.service.ts 
+- Go to the integrated terminal & type: npm install
+- To run the client type:  ng s -o
